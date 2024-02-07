@@ -91,3 +91,25 @@ secrets:
     name: my-secret2
     value: secretValue2
     namespace: default    
+
+  list:
+    - provider1:
+        name: provider1-credential
+        secret: one
+        namespace: dummy-project
+
+    - provider2:
+        name: provider2-credential
+        secret: two
+        namespace: dummy-project
+
+    - provider3:
+        name: provider3-credential
+        secret: three
+        namespace: dummy-project
+
+    - provider4:
+        name: provider4-credential
+        secret: four
+        namespace: dummy-project
+
